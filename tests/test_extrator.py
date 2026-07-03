@@ -2,7 +2,6 @@
 """Testes de regressão do motor de extração.
 
 Gabarito completo em docs/07-plano-testes.md. Requer os PDFs reais em amostras/.
-Completar CARIMBO_ESPERADO com a tabela integral do doc 07 na Fase 1.
 """
 from pathlib import Path
 
@@ -10,7 +9,6 @@ import pytest
 
 import sys
 sys.path.insert(0, str(Path(__file__).parent.parent))
-sys.path.insert(0, str(Path(__file__).parent.parent / "referencia"))
 from extrator import processar_pdf, gerar_linhas, escanear_pasta  # noqa: E402
 
 AMOSTRAS = Path(__file__).parent.parent / "amostras"
