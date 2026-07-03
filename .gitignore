@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+amostras/*.pdf
+amostras/*.xlsm
+amostras/*.XLSM
+*_BACKUP_*.xlsm

@@ -1,0 +1,7 @@
+Copiar para esta pasta:
+1) Os 19 PDFs da OS 1808 listados em docs/07-plano-testes.md (secao 3)
+2) Uma COPIA da planilha FOR ENG 003 ... MODELO LISTA NOVA.XLSM
+
+Nao commitar estes arquivos em repositorio publico (desenhos de clientes).
+Sugestao: adicionar "amostras/*.pdf" e "amostras/*.XLSM" ao .gitignore
+se o repositorio sair da rede interna.
