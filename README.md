@@ -10,9 +10,11 @@ proteção contra duplicidade.
 
 ## Status
 
-Documentação completa + motor de extração **validado com 19 PDFs reais**
-(79 linhas, 0 erros). Implementação de referência em `referencia/`.
-Construção guiada por Claude Code seguindo `docs/06-plano-implementacao.md`.
+v1.0: motor de extração, exportador e GUI promovidos e validados (19 PDFs
+reais → 79 linhas, 0 erros; backup/antiduplicidade/preservação de macros e
+pivôs testados com Excel real; build via PyInstaller gerando
+`dist/ExtratorDesenhosLS.exe` com sucesso). Falta piloto em máquina limpa
+e na pasta real de produção (docs/06 Fase 4).
 
 ## Começando (desenvolvimento)
 
